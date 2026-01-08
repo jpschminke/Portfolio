@@ -3,7 +3,7 @@ import './globals.css'
 import Header from '@/components/Header'
 
 export const metadata: Metadata = {
-  title: 'Jasper Schminke Portfolio',
+  title: 'Jasperschminke.com',
   description: 'Portfolio website',
 }
 

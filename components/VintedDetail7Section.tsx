@@ -47,7 +47,7 @@ export default function VintedDetail7Section() {
       <div className={`absolute bg-[#1e1e1e] h-[527px] left-[306px] top-[264px] w-[900px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="224:665" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }} />
       <div className={`absolute h-[478px] left-[496px] top-[282px] w-[512px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="Screenshot 2025-11-23 at 16.19.31 1" data-node-id="219:450" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[103.97%] left-[-1.56%] max-w-none top-[-1.88%] w-[103.12%]" src={imgScreenshot20251123At1619311} loading="eager" />
+          <img alt="" className="absolute h-full w-full object-contain" src={imgScreenshot20251123At1619311} loading="eager" />
         </div>
       </div>
       <div className={`absolute bg-[#1e1e1e] h-[14px] left-[496px] top-[746px] w-[25px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="224:667" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }} />

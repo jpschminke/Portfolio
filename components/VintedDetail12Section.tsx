@@ -43,7 +43,7 @@ export default function VintedDetail12Section() {
       </p>
       <div className={`absolute h-[527px] left-[303px] top-[264px] w-[925px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="Mockup_3 1" data-node-id="591:5214" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[117.08%] left-0 max-w-none top-[-5.44%] w-[100.01%]" src={imgMockup31} loading="eager" />
+          <img alt="" className="absolute h-full w-full object-contain" src={imgMockup31} loading="eager" />
         </div>
       </div>
       <div className={`absolute font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] left-[305px] text-[#767676] text-[0px] text-[14px] top-[812px] w-[741px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="591:5210" style={{ fontVariationSettings: "'wdth' 100", transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>

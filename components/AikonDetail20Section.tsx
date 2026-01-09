@@ -37,7 +37,7 @@ export default function AikonDetail20Section() {
       <p className={`absolute font-['SF_Pro:Bold',sans-serif] font-bold leading-[45px] left-[304px] text-[40px] text-black text-nowrap top-[128px] whitespace-pre transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="628:5372" style={{ fontVariationSettings: "'wdth' 100", transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         Final Prototype
       </p>
-      <p className={`absolute font-['SF_Pro:Medium',sans-serif] font-[510] leading-[45px] left-[306px] text-[#767676] text-[20px] top-[188px] w-[118px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="628:5373" style={{ fontVariationSettings: "'wdth' 100", transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
+      <p className={`absolute font-['SF_Pro:Medium',sans-serif] font-[510] leading-[normal] left-[306px] text-[#767676] text-[20px] top-[188px] whitespace-nowrap transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="628:5373" style={{ fontVariationSettings: "'wdth' 100", transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         <span>{`Photo `}</span>
         <span style={{ fontVariationSettings: "'wdth' 100" }}>→</span>
         <span>{` Icon`}</span>

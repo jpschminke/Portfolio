@@ -42,7 +42,7 @@ export default function AikonDetail4Section() {
         <p className="text-[48px]">&nbsp;</p>
       </div>
       <p className={`absolute font-['SF_Pro:Medium',sans-serif] font-[510] leading-[45px] left-[306px] text-[#767676] text-[20px] text-nowrap top-[185px] whitespace-pre transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="606:5274" style={{ fontVariationSettings: "'wdth' 100", transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
-        Problem Sketch
+        Interviews
       </p>
       <div className={`absolute h-[540px] left-[305px] top-[264px] w-[863.738px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="Screenshot 2025-04-25 at 16.30.32 1" data-node-id="279:428" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgScreenshot20250425At1630321} loading="eager" />

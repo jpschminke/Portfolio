@@ -42,7 +42,7 @@ export default function VintedDetail2Section() {
       </p>
       <div className={`absolute h-[527px] left-[305px] top-[264px] w-[901px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="Mockup_1 1" data-node-id="208:251" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[114.04%] left-0 max-w-none top-[-4.38%] w-[100.01%]" src={imgMockup11} loading="eager" />
+          <img alt="" className="absolute h-full w-full object-contain" src={imgMockup11} loading="eager" />
         </div>
       </div>
     </section>

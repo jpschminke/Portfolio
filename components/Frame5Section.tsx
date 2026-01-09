@@ -4,16 +4,16 @@ import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 
 const imgImg50691 = "/images/portfolio - images/IMG_5069 1.png";
-const imgImg8059 = "/images/portfolio - images/IMG_5069 1-1.png";
+const imgImg8059 = "/images/portfolio - images/IMG_8059.png";
 const imgImg14191 = "/images/portfolio - images/IMG_1419 2.png";
 const imgImg94211 = "/images/portfolio - images/IMG_9421 1.png";
-const imgImage13 = "/images/portfolio - images/image 11.png";
+const imgImage13 = "/images/portfolio - images/image 13.png";
 
 const carouselImages = [
-  { src: imgImg50691, className: "absolute h-[130.33%] left-[-0.01%] max-w-none top-[-8.76%] w-[100.01%]" },
-  { src: imgImg8059, className: "absolute h-[129.66%] left-[-0.03%] max-w-none top-[-8.06%] w-[100.07%]" },
-  { src: imgImg14191, className: "absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" },
-  { src: imgImg94211, className: "absolute h-[147.33%] left-[-0.25%] max-w-none top-[-20.57%] w-[113.53%]" },
+  { src: imgImg50691, className: "absolute h-full w-full object-contain" },
+  { src: imgImg8059, className: "absolute h-full w-full object-contain" },
+  { src: imgImg14191, className: "absolute h-full w-full object-contain pointer-events-none" },
+  { src: imgImg94211, className: "absolute h-full w-full object-contain" },
 ];
 
 export default function Frame5Section() {

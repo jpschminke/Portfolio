@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-const imgImage3 = "/images/portfolio - images/image 2.png";
+const imgImage3 = "/images/portfolio - images/image 3.png";
 const imgVector = "/images/portfolio - images/Isabella UX Interview.png";
 
 export default function AikonDetail7Section() {
@@ -43,7 +43,7 @@ export default function AikonDetail7Section() {
         <p className="text-[48px]">&nbsp;</p>
       </div>
       <p className={`absolute font-['SF_Pro:Medium',sans-serif] font-[510] leading-[45px] left-[306px] text-[#767676] text-[20px] text-nowrap top-[188px] whitespace-pre transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="618:5289" style={{ fontVariationSettings: "'wdth' 100", transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
-        Problem Sketch
+        Persona
       </p>
       <div className={`absolute flex h-[540px] items-center justify-center left-[305px] top-[264px] w-[864px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} style={{ "--transform-inner-width": "540", "--transform-inner-height": "864", transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' } as React.CSSProperties}>
         <div className="flex-none rotate-[90deg]">
@@ -120,7 +120,7 @@ export default function AikonDetail7Section() {
             <div className="absolute flex h-[141px] items-center justify-center left-[18px] top-[38px] w-[135px]" style={{ "--transform-inner-width": "141", "--transform-inner-height": "135" } as React.CSSProperties}>
               <div className="flex-none rotate-[270deg]">
                 <div className="h-[135px] relative w-[141px]" data-name="image 3" data-node-id="618:5286">
-                  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgImage3} loading="eager" />
+                  <img alt="" className="absolute h-full w-full object-contain pointer-events-none" src={imgImage3} loading="eager" />
                 </div>
               </div>
             </div>

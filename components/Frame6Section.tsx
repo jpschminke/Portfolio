@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
-const imgImage13 = "/images/portfolio - images/image 11.png";
+const imgImage13 = "/images/portfolio - images/image 13.png";
 
 export default function Frame6Section() {
   const [displayedText, setDisplayedText] = useState('');

@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 
-const imgImg00281Bw1 = "/images/portfolio - images/IMG_0028_1_BW 1.png";
+const imgImg00281Bw1 = "/images/portfolio - images/IMG_0028_1_BW 2.png";
 
 export default function Frame1Section() {
   const [displayedText, setDisplayedText] = useState('');
@@ -66,9 +66,9 @@ export default function Frame1Section() {
         <p className="mb-0">&nbsp;</p>
         <p>&nbsp;</p>
       </div>
-      <div className="absolute h-[702px] left-[80px] top-[164px] w-[575px]" data-name="IMG_0028_1:BW 1" data-node-id="552:5121">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-full w-full object-contain" src={imgImg00281Bw1} loading="eager" />
+      <div className="absolute h-[702px] left-[80px] top-[164px] w-[575px]" data-name="IMG_0028_1:BW 1" data-node-id="552:5121" style={{ borderRadius: 0 }}>
+        <div className="absolute inset-0 overflow-hidden pointer-events-none" style={{ borderRadius: 0 }}>
+          <img alt="" className="absolute h-full w-full object-contain" src={imgImg00281Bw1} loading="eager" style={{ borderRadius: 0 }} />
         </div>
       </div>
     </section>

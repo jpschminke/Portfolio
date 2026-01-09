@@ -37,12 +37,12 @@ export default function AboutDetail1Section() {
     <section ref={sectionRef} id="about-detail-1" className="bg-white relative w-full h-full overflow-visible" data-name="MacBook Pro 14' - 87" data-node-id="687:6053" style={{ width: '1512px', height: '982px' }}>
       <div className={`absolute h-[516px] left-[249px] rounded-[10px] top-[143px] w-[412px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="DSC00690" data-node-id="698:6121" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[10px]">
-          <img alt="" className="absolute h-full left-[-23.07%] max-w-none top-0 w-[166.71%]" src={imgDsc00690} loading="eager" />
+          <img alt="" className="absolute h-full w-full object-contain" src={imgDsc00690} loading="eager" />
         </div>
       </div>
       <div className={`absolute h-[490px] left-[806px] rounded-bl-[10px] rounded-br-[10px] top-[169px] w-[412px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="Education About me 2" data-node-id="708:6207" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-bl-[10px] rounded-br-[10px]">
-          <img alt="" className="absolute h-full left-[-9.47%] max-w-none top-0 w-[118.93%]" src={imgEducationAboutMe2} loading="eager" />
+          <img alt="" className="absolute h-full w-full object-contain" src={imgEducationAboutMe2} loading="eager" />
         </div>
       </div>
       <div className={`absolute bg-[#eaebf0] h-[26px] left-[806px] rounded-tl-[10px] rounded-tr-[10px] top-[143px] w-[412px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="708:6209" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }} />

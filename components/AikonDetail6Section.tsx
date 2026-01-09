@@ -40,7 +40,7 @@ export default function AikonDetail6Section() {
         <p className="text-[48px]">&nbsp;</p>
       </div>
       <p className={`absolute font-['SF_Pro:Medium',sans-serif] font-[510] leading-[45px] left-[306px] text-[#767676] text-[20px] text-nowrap top-[231px] whitespace-pre transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="606:5281" style={{ fontVariationSettings: "'wdth' 100", transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
-        Problem Sketch
+        Pain Points
       </p>
       <div className={`absolute font-['SF_Pro:Regular',sans-serif] font-normal h-[259px] leading-[0] left-[305px] text-[0px] text-[20px] text-black top-[304px] w-[450px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="241:145" style={{ fontVariationSettings: "'wdth' 100", transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         <p className="leading-[30px] mb-0">&nbsp;</p>

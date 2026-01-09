@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 
-const imgScreenshot20260107At151918Removebg1 = "http://localhost:3845/assets/faed24438e1ad156a2ac9f5819204f2d22e3a129.png";
+const imgScreenshot20260107At151918Removebg1 = "/images/portfolio - images/Screenshot_2026-01-07_at_15.19.18-removebg 1.png";
 
 export default function Frame7Section() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -38,7 +38,7 @@ export default function Frame7Section() {
     <section ref={sectionRef} id="frame-7" className="bg-white relative size-full" data-name="MacBook Pro 14' - 90" data-node-id="735:6234">
       <div className={`absolute h-[601px] left-[412px] top-[152px] w-[687px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="Screenshot_2026-01-07_at_15.19.18-removebg 1" data-node-id="779:6400" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[100.08%] left-[-26.72%] max-w-none top-[-0.04%] w-[160.06%]" src={imgScreenshot20260107At151918Removebg1} loading="eager" crossOrigin="anonymous" />
+          <img alt="" className="absolute h-[100.08%] left-[-26.72%] max-w-none top-[-0.04%] w-[160.06%]" src={imgScreenshot20260107At151918Removebg1} loading="eager" />
         </div>
       </div>
       <p className={`absolute font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] left-[305px] text-[40px] text-black text-nowrap top-[794px] whitespace-pre transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="735:6236" style={{ fontVariationSettings: "'wdth' 100", transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>

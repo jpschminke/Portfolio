@@ -1,6 +1,6 @@
 'use client';
 
-const imgScreenshot20260107At151918Removebg1 = "http://localhost:3845/assets/faed24438e1ad156a2ac9f5819204f2d22e3a129.png";
+const imgScreenshot20260107At151918Removebg1 = "/images/portfolio - images/Screenshot_2026-01-07_at_15.19.18-removebg 1.png";
 
 export default function PenPlotterDetailSection() {
   const handleScrollDown = () => {
@@ -14,7 +14,7 @@ export default function PenPlotterDetailSection() {
     <section id="penplotter-detail" className="bg-white relative w-full h-full overflow-hidden" data-name="MacBook Pro 14' - 90" data-node-id="735:6234">
       <div className="absolute h-[601px] left-[412px] top-[152px] w-[687px] overflow-hidden" data-name="Screenshot_2026-01-07_at_15.19.18-removebg 1" data-node-id="779:6400">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[100.08%] left-[-26.72%] max-w-none top-[-0.04%] w-[160.06%]" src={imgScreenshot20260107At151918Removebg1} loading="eager" crossOrigin="anonymous" />
+          <img alt="" className="absolute h-[100.08%] left-[-26.72%] max-w-none top-[-0.04%] w-[160.06%]" src={imgScreenshot20260107At151918Removebg1} loading="eager" />
         </div>
       </div>
       <button

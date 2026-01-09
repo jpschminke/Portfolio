@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-const imgScreenshot20251129At1456451 = "http://localhost:3845/assets/f2c9a072c1cfaf83bbd85df81098860397fb3633.png";
+const imgScreenshot20251129At1456451 = "/images/portfolio - images/Screenshot 2025-11-29 at 14.56.45 1.png";
 
 export default function AikonDetail17Section() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -41,7 +41,7 @@ export default function AikonDetail17Section() {
         Generate First Icon
       </p>
       <div className={`absolute border border-[var(--portfolio,#d9d9d9)] border-solid h-[521px] left-[305px] top-[264px] w-[926px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="Screenshot 2025-11-29 at 14.56.45 1" data-node-id="305:1199" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgScreenshot20251129At1456451} loading="eager" crossOrigin="anonymous" />
+        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgScreenshot20251129At1456451} loading="eager" />
       </div>
     </section>
   );

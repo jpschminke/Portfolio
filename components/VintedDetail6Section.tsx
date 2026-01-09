@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-const imgLine2 = "http://localhost:3845/assets/line2.svg";
+const imgLine2 = "/images/portfolio - images/image 2.png";
 
 export default function VintedDetail6Section() {
   const sectionRef = useRef<HTMLElement>(null);

@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-const imgBildschirmfoto20250520Um1026061 = "http://localhost:3845/assets/a06129e320f74557e46f222a6823990eb5b0b9b3.png";
+const imgBildschirmfoto20250520Um1026061 = "/images/portfolio - images/Bildschirmfoto 2025-05-20 um 10.26.06 1.png";
 
 export default function AikonDetail8Section() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -50,7 +50,7 @@ export default function AikonDetail8Section() {
       </p>
       <div className={`absolute h-[532px] left-[345px] top-[269px] w-[770px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="Bildschirmfoto 2025-05-20 um 10.26.06 1" data-node-id="301:763" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[101.32%] left-0 max-w-none top-0 w-[100.39%]" src={imgBildschirmfoto20250520Um1026061} loading="eager" crossOrigin="anonymous" />
+          <img alt="" className="absolute h-[101.32%] left-0 max-w-none top-0 w-[100.39%]" src={imgBildschirmfoto20250520Um1026061} loading="eager" />
         </div>
       </div>
     </section>

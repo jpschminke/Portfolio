@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 
-const imgImage13 = "http://localhost:3845/assets/32a6a5514ba3722e22e7cf6c756f356a71f32e1e.png";
+const imgImage13 = "/images/portfolio - images/image 11.png";
 
 export default function Frame6Section() {
   const [displayedText, setDisplayedText] = useState('');
@@ -93,7 +93,7 @@ export default function Frame6Section() {
           Talk to me
         </p>
         <div className="relative size-[26px] flex-shrink-0 transition-transform duration-300 ease-in-out group-hover:translate-y-[-4px]" data-name="image 13" data-node-id="744:6336">
-          <img alt="" className="block max-w-none size-full" src={imgImage13} loading="eager" crossOrigin="anonymous" />
+          <img alt="" className="block max-w-none size-full" src={imgImage13} loading="eager" />
         </div>
       </Link>
     </section>

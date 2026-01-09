@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-const imgImage2 = "http://localhost:3845/assets/c5d74e3dadcc7a03934cb2f2d383dfedf1336ef0.png";
+const imgImage2 = "/images/portfolio - images/image 2.png";
 
 export default function AikonDetail3Section() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -48,7 +48,7 @@ export default function AikonDetail3Section() {
         Already the first ideation phase revealed clear problem areas: inconsistent icon sets, missing icons for new devices, and high time investment for post-processing.
       </p>
       <div className={`absolute h-[302px] left-[273px] top-[387px] w-[929px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="image 2" data-node-id="568:5141" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgImage2} loading="eager" crossOrigin="anonymous" />
+        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgImage2} loading="eager" />
       </div>
     </section>
   );

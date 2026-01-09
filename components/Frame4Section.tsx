@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 
-const imgAikonLogo1 = "http://localhost:3845/assets/10108350cac914ae298fca691e9dbdb058077dd3.png";
+const imgAikonLogo1 = "/images/portfolio - images/Aikon_Logo 1.png";
 
 export default function Frame4Section() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -46,7 +46,7 @@ export default function Frame4Section() {
       </Link>
       <div className={`absolute h-[459px] left-[525px] rounded-[20px] top-[221px] w-[461px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="Aikon_Logo 1" data-node-id="293:520" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[20px]">
-          <img alt="" className="absolute h-[112.11%] left-[-6.15%] max-w-none top-[-4.9%] w-[111.54%]" src={imgAikonLogo1} loading="eager" crossOrigin="anonymous" />
+          <img alt="" className="absolute h-[112.11%] left-[-6.15%] max-w-none top-[-4.9%] w-[111.54%]" src={imgAikonLogo1} loading="eager" />
         </div>
       </div>
     </section>

@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-const imgImage10 = "http://localhost:3845/assets/ee936f0f216d715404b96d707b1e6377855eb625.png";
+const imgImage10 = "/images/portfolio - images/image 10.png";
 
 export default function PenPlotterDetail8Section() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -35,7 +35,7 @@ export default function PenPlotterDetail8Section() {
   return (
     <section ref={sectionRef} id="penplotter-detail-8" className="bg-white relative w-full h-full" data-name="MacBook Pro 14' - 96" data-node-id="742:6274">
       <div className={`absolute h-[487px] left-[432px] top-[284px] w-[646px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="image 10" data-node-id="742:6281" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgImage10} loading="eager" crossOrigin="anonymous" />
+        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgImage10} loading="eager" />
       </div>
       <p className={`absolute font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] left-[432px] text-[40px] text-black text-nowrap top-[195px] whitespace-pre transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="742:6326" style={{ fontVariationSettings: "'wdth' 100", transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         Radial Movement Logic

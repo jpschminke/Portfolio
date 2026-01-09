@@ -3,11 +3,11 @@
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 
-const imgImg50691 = "http://localhost:3845/assets/0923ea7acc8938c1af172f3a1b252a75a300b663.png";
-const imgImg8059 = "http://localhost:3845/assets/2c71735582e244c36a5179d22d562774b4554d31.png";
-const imgImg14191 = "http://localhost:3845/assets/435bb8bc9d8336d92d6f2d7d85d5944d34a26a22.png";
-const imgImg94211 = "http://localhost:3845/assets/8dddb05adb873932ca61c390e80646e0f8b523a6.png";
-const imgImage13 = "http://localhost:3845/assets/32a6a5514ba3722e22e7cf6c756f356a71f32e1e.png";
+const imgImg50691 = "/images/portfolio - images/IMG_5069 1.png";
+const imgImg8059 = "/images/portfolio - images/IMG_1419 2.png";
+const imgImg14191 = "/images/portfolio - images/IMG_1419 2.png";
+const imgImg94211 = "/images/portfolio - images/IMG_9421 1.png";
+const imgImage13 = "/images/portfolio - images/image 11.png";
 
 const carouselImages = [
   { src: imgImg50691, className: "absolute h-[130.33%] left-[-0.01%] max-w-none top-[-8.76%] w-[100.01%]" },
@@ -68,7 +68,7 @@ export default function Frame5Section() {
               className={`${image.className} absolute transition-opacity duration-1000 ease-in-out ${index === currentImageIndex ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
               src={image.src}
               loading="eager"
-              crossOrigin="anonymous"
+             
             />
           ))}
         </div>
@@ -85,7 +85,7 @@ export default function Frame5Section() {
           About me
         </p>
         <div className="relative h-[20px] w-[20px] flex-shrink-0 flex items-center transition-transform duration-300 ease-in-out group-hover:translate-y-[-4px]" data-name="image 13" data-node-id="744:6336">
-          <img alt="" className="block max-w-none size-full" src={imgImage13} loading="eager" crossOrigin="anonymous" />
+          <img alt="" className="block max-w-none size-full" src={imgImage13} loading="eager" />
         </div>
       </Link>
     </section>

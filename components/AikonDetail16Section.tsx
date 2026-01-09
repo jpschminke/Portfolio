@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-const imgScreenshot20251129At1455031 = "http://localhost:3845/assets/a064c876ef43d10a67891292b9f07501b995f09d.png";
+const imgScreenshot20251129At1455031 = "/images/portfolio - images/Screenshot 2025-11-29 at 14.55.03 1.png";
 
 export default function AikonDetail16Section() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -41,7 +41,7 @@ export default function AikonDetail16Section() {
         Upload Icon Set
       </p>
       <div className={`absolute border-[0.75px] border-[var(--portfolio,#d9d9d9)] border-solid h-[521px] left-[305px] top-[264px] w-[925px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="Screenshot 2025-11-29 at 14.55.03 1" data-node-id="305:1194" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgScreenshot20251129At1455031} loading="eager" crossOrigin="anonymous" />
+        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgScreenshot20251129At1455031} loading="eager" />
       </div>
     </section>
   );

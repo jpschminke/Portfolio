@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 
-const imgMockup32 = "http://localhost:3845/assets/a3dfe747255ad7f8b2d9901f03853cb13537b6ce.png";
+const imgMockup32 = "/images/portfolio - images/Mockup_3 2.png";
 
 export default function Frame3Section() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -44,7 +44,7 @@ export default function Frame3Section() {
         Vinted Redesign
       </p>
       <div className={`absolute h-[696px] left-[234px] top-[89px] w-[1043px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="Mockup_3 2" data-node-id="595:5229" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgMockup32} loading="eager" crossOrigin="anonymous" />
+        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgMockup32} loading="eager" />
       </div>
       <Link href="/vinted" className={`absolute bg-black h-[36px] left-[1053px] rounded-[8px] shadow-[1px_1px_5px_0px_rgba(0,0,0,0.25)] top-[799px] w-[164px] flex items-center justify-center cursor-pointer no-underline transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="595:5230" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         <p className="font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] text-[16px] text-nowrap text-white whitespace-pre m-0" data-node-id="595:5231" style={{ fontVariationSettings: "'wdth' 100" }}>

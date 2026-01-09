@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-const imgScreenshot20251129At1343291 = "http://localhost:3845/assets/992b898adeaedbf8aa718c234cc4cf8f984fccd5.png";
+const imgScreenshot20251129At1343291 = "/images/portfolio - images/Screenshot 2025-11-29 at 13.43.29 1.png";
 
 export default function AikonDetail9Section() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -47,7 +47,7 @@ export default function AikonDetail9Section() {
       <div className={`absolute bg-black h-[541px] left-[306px] top-[269px] w-[863px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="299:759" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }} />
       <div className={`absolute h-[511px] left-[381px] top-[284px] w-[714px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="Screenshot 2025-11-29 at 13.43.29 1" data-node-id="299:761" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[101.01%] left-0 max-w-none top-[-0.99%] w-[101.4%]" src={imgScreenshot20251129At1343291} loading="eager" crossOrigin="anonymous" />
+          <img alt="" className="absolute h-[101.01%] left-0 max-w-none top-[-0.99%] w-[101.4%]" src={imgScreenshot20251129At1343291} loading="eager" />
         </div>
       </div>
     </section>

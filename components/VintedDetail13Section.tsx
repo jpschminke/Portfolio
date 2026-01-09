@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-const imgMockup51 = "http://localhost:3845/assets/6e6ca2348a844890d12027beec8cd5ccb95455eb.png";
+const imgMockup51 = "/images/portfolio - images/Mockup_5 1.png";
 
 export default function VintedDetail13Section() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -43,7 +43,7 @@ export default function VintedDetail13Section() {
       </p>
       <div className={`absolute h-[527px] left-[306px] top-[264px] w-[925px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="Mockup_5 1" data-node-id="591:5225" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[117.08%] left-0 max-w-none top-[-5.42%] w-[100.01%]" src={imgMockup51} loading="eager" crossOrigin="anonymous" />
+          <img alt="" className="absolute h-[117.08%] left-0 max-w-none top-[-5.42%] w-[100.01%]" src={imgMockup51} loading="eager" />
         </div>
       </div>
       <div className={`absolute font-['SF_Pro:Regular',sans-serif] font-normal leading-[normal] left-[305px] text-[#767676] text-[0px] text-[14px] top-[812px] w-[741px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="591:5220" style={{ fontVariationSettings: "'wdth' 100", transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>

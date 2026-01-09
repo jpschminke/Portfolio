@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-const imgVerlauf11 = "http://localhost:3845/assets/72f78d0a726b5d42eb778bc6c9e676028967109c.png";
+const imgVerlauf11 = "/images/portfolio - images/Verlauf-1 1.png";
 
 export default function AikonDetail18Section() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -41,7 +41,7 @@ export default function AikonDetail18Section() {
         Generate Variants
       </p>
       <div className={`absolute border border-[var(--portfolio,#d9d9d9)] border-solid h-[521px] left-[305px] top-[264px] w-[927px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="Verlauf-1 1" data-node-id="305:1203" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgVerlauf11} loading="eager" crossOrigin="anonymous" />
+        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgVerlauf11} loading="eager" />
       </div>
     </section>
   );

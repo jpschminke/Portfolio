@@ -7,10 +7,11 @@ export const metadata: Metadata = {
   description: 'Portfolio website',
   icons: {
     icon: [
+      { url: '/icon.png', type: 'image/png' },
       { url: '/icon.svg', type: 'image/svg+xml' },
     ],
-    shortcut: '/icon.svg',
-    apple: '/icon.svg',
+    shortcut: '/icon.png',
+    apple: '/icon.png',
   },
 }
 

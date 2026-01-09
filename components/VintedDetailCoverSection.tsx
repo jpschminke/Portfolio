@@ -1,6 +1,6 @@
 'use client';
 
-const imgMockup32 = "http://localhost:3845/assets/a3dfe747255ad7f8b2d9901f03853cb13537b6ce.png";
+const imgMockup32 = "/images/portfolio - images/Mockup_3 2.png";
 
 export default function VintedDetailCoverSection() {
   const handleScrollDown = () => {
@@ -14,7 +14,7 @@ export default function VintedDetailCoverSection() {
     <section id="vinted-detail-cover" className="bg-white relative w-full h-full overflow-hidden" data-name="MacBook Pro 14' - 76" data-node-id="595:5227">
       <div className="absolute h-[696px] left-[234px] top-[89px] w-[1043px] overflow-hidden" data-name="Mockup_3 2" data-node-id="595:5229">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgMockup32} loading="eager" crossOrigin="anonymous" />
+          <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgMockup32} loading="eager" />
         </div>
       </div>
       <button

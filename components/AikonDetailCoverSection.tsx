@@ -1,6 +1,6 @@
 'use client';
 
-const imgAikonLogo1 = "http://localhost:3845/assets/10108350cac914ae298fca691e9dbdb058077dd3.png";
+const imgAikonLogo1 = "/images/portfolio - images/Aikon_Logo 1.png";
 
 export default function AikonDetailCoverSection() {
   const handleScrollDown = () => {
@@ -14,7 +14,7 @@ export default function AikonDetailCoverSection() {
     <section id="aikon-detail-cover" className="bg-white relative w-full h-full overflow-hidden" data-name="MacBook Pro 14' - 62" data-node-id="293:509">
       <div className="absolute h-[459px] left-[525px] rounded-[20px] top-[221px] w-[461px] overflow-hidden" data-name="Aikon_Logo 1" data-node-id="293:520">
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[20px]">
-          <img alt="" className="absolute h-[112.11%] left-[-6.15%] max-w-none top-[-4.9%] w-[111.54%]" src={imgAikonLogo1} loading="eager" crossOrigin="anonymous" />
+          <img alt="" className="absolute h-[112.11%] left-[-6.15%] max-w-none top-[-4.9%] w-[111.54%]" src={imgAikonLogo1} loading="eager" />
         </div>
       </div>
       <button

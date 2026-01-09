@@ -2,8 +2,8 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-const imgImage3 = "http://localhost:3845/assets/442bf1292320a9377e58dfb7894e66ddf13dabda.png";
-const imgVector = "http://localhost:3845/assets/vector.svg"; // Placeholder - update with actual URL if available
+const imgImage3 = "/images/portfolio - images/image 2.png";
+const imgVector = "/images/portfolio - images/Isabella UX Interview.png";
 
 export default function AikonDetail7Section() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -113,14 +113,14 @@ export default function AikonDetail7Section() {
             <div className="absolute flex inset-[calc(7.29%-1px)_calc(76.85%-1px)_calc(82.06%-1px)_calc(6.11%-1px)] items-center justify-center">
               <div className="flex-none rotate-[270deg] size-[92px]">
                 <div className="relative size-full" data-name="Vector" data-node-id="293:569">
-                  <img alt="" className="block max-w-none size-full" src={imgVector} loading="eager" crossOrigin="anonymous" />
+                  <img alt="" className="block max-w-none size-full" src={imgVector} loading="eager" />
                 </div>
               </div>
             </div>
             <div className="absolute flex h-[141px] items-center justify-center left-[18px] top-[38px] w-[135px]" style={{ "--transform-inner-width": "141", "--transform-inner-height": "135" } as React.CSSProperties}>
               <div className="flex-none rotate-[270deg]">
                 <div className="h-[135px] relative w-[141px]" data-name="image 3" data-node-id="618:5286">
-                  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgImage3} loading="eager" crossOrigin="anonymous" />
+                  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgImage3} loading="eager" />
                 </div>
               </div>
             </div>

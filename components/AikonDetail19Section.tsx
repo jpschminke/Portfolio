@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-const imgFulleDasBlattAus1 = "http://localhost:3845/assets/0b700e57baf59620c40062f9ce857099b80c83d8.png";
+const imgFulleDasBlattAus1 = "/images/portfolio - images/fülle das blatt aus 1.png";
 
 export default function AikonDetail19Section() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -41,7 +41,7 @@ export default function AikonDetail19Section() {
         Targeted Area Adjustment
       </p>
       <div className={`absolute border border-[var(--portfolio,#d9d9d9)] border-solid h-[521px] left-[305px] top-[264px] w-[927px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="fülle das blatt aus 1" data-node-id="305:1209" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgFulleDasBlattAus1} loading="eager" crossOrigin="anonymous" />
+        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgFulleDasBlattAus1} loading="eager" />
       </div>
     </section>
   );

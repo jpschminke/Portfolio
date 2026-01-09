@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-const imgMockup11 = "http://localhost:3845/assets/d9e4b08f98b66aa070d8494ba3b0fd3c220f3cf1.png";
+const imgMockup11 = "/images/portfolio - images/Mockup_1 1.png";
 
 export default function VintedDetail2Section() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -42,7 +42,7 @@ export default function VintedDetail2Section() {
       </p>
       <div className={`absolute h-[527px] left-[305px] top-[264px] w-[901px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="Mockup_1 1" data-node-id="208:251" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[114.04%] left-0 max-w-none top-[-4.38%] w-[100.01%]" src={imgMockup11} loading="eager" crossOrigin="anonymous" />
+          <img alt="" className="absolute h-[114.04%] left-0 max-w-none top-[-4.38%] w-[100.01%]" src={imgMockup11} loading="eager" />
         </div>
       </div>
     </section>

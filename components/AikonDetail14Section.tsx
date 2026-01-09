@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-const imgScreenshot20251129At1422441 = "http://localhost:3845/assets/035a0412eb68cba4475bb6d7bf6db536b80b9046.png";
+const imgScreenshot20251129At1422441 = "/images/portfolio - images/Screenshot 2025-11-29 at 14.22.44 1.png";
 
 export default function AikonDetail14Section() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -41,7 +41,7 @@ export default function AikonDetail14Section() {
         Canvas (center)
       </p>
       <div className={`absolute border-[#d9d9d9] border-[0.75px] border-solid h-[492px] left-[921px] top-[295px] w-[418px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="Screenshot 2025-11-29 at 14.22.44 1" data-node-id="301:1175" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgScreenshot20251129At1422441} loading="eager" crossOrigin="anonymous" />
+        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgScreenshot20251129At1422441} loading="eager" />
       </div>
       <div className={`absolute font-['SF_Pro:Medium',sans-serif] font-[510] h-[350px] leading-[0] left-[305px] text-[0px] text-black top-[410px] w-[494px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="301:1184" style={{ fontVariationSettings: "'wdth' 100", transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         <p className="leading-[50px] mb-0 text-[16px]">Focus on:</p>

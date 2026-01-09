@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-const imgScreenshot20251129At1407031 = "http://localhost:3845/assets/eba491ca8954f299bca30c8c5693b3ea469d848f.png";
+const imgScreenshot20251129At1407031 = "/images/portfolio - images/Screenshot 2025-11-29 at 14.07.03 1.png";
 
 export default function AikonDetail10Section() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -45,7 +45,7 @@ export default function AikonDetail10Section() {
         Wireframes
       </p>
       <div className={`absolute h-[485px] left-[306px] top-[284px] w-[863px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="Screenshot 2025-11-29 at 14.07.03 1" data-node-id="301:1102" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgScreenshot20251129At1407031} loading="eager" crossOrigin="anonymous" />
+        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgScreenshot20251129At1407031} loading="eager" />
       </div>
     </section>
   );

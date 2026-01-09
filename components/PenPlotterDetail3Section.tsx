@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-const imgImage6 = "http://localhost:3845/assets/52935586179a3b1289da1a77324e3ea574c61bec.png";
+const imgImage6 = "/images/portfolio - images/image 6.png";
 
 export default function PenPlotterDetail3Section() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -35,7 +35,7 @@ export default function PenPlotterDetail3Section() {
   return (
     <section ref={sectionRef} id="penplotter-detail-3" className="bg-white relative w-full h-full" data-name="MacBook Pro 14' - 92" data-node-id="740:6244">
       <div className={`absolute h-[487px] left-[431px] top-[284px] w-[649px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="image 6" data-node-id="742:6251" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
-        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgImage6} loading="eager" crossOrigin="anonymous" />
+        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={imgImage6} loading="eager" />
       </div>
       <p className={`absolute font-['SF_Pro:Bold',sans-serif] font-bold leading-[normal] left-[429px] text-[40px] text-black text-nowrap top-[195px] whitespace-pre transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="742:6294" style={{ fontVariationSettings: "'wdth' 100", transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         Exploring Imperfect Precision

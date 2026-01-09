@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 
-const imgScreenshot20251129At1426121 = "http://localhost:3845/assets/d4ab84c6b977be69a355e5d32d02cdd87fcae3c3.png";
+const imgScreenshot20251129At1426121 = "/images/portfolio - images/Screenshot 2025-11-29 at 14.26.12 1.png";
 
 export default function AikonDetail15Section() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -42,7 +42,7 @@ export default function AikonDetail15Section() {
       </p>
       <div className={`absolute border-[#d9d9d9] border-[0.75px] border-solid h-[602px] left-[989px] top-[240px] w-[276px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-name="Screenshot 2025-11-29 at 14.26.12 1" data-node-id="301:1187" style={{ transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[100.29%] left-[-0.72%] max-w-none top-[-0.23%] w-[101.09%]" src={imgScreenshot20251129At1426121} loading="eager" crossOrigin="anonymous" />
+          <img alt="" className="absolute h-[100.29%] left-[-0.72%] max-w-none top-[-0.23%] w-[101.09%]" src={imgScreenshot20251129At1426121} loading="eager" />
         </div>
       </div>
       <div className={`absolute font-['SF_Pro:Regular',sans-serif] font-normal h-[289px] leading-[0] left-[306px] text-[14px] text-black top-[383px] w-[469px] transition-opacity duration-[1200ms] ease-out ${isVisible ? 'opacity-100' : 'opacity-0'}`} data-node-id="301:1189" style={{ fontVariationSettings: "'wdth' 100", transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)' }}>

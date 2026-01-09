@@ -68,7 +68,7 @@ export default function Frame1Section() {
       </div>
       <div className="absolute h-[702px] left-[80px] top-[164px] w-[575px]" data-name="IMG_0028_1:BW 1" data-node-id="552:5121">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[124.16%] left-[-64.89%] max-w-none top-[-7.02%] w-[226.93%]" src={imgImg00281Bw1} loading="eager" />
+          <img alt="" className="absolute h-[124.16%] left-[-64.89%] max-w-none top-[-7.02%] w-[226.93%] object-cover" src={imgImg00281Bw1} loading="eager" />
         </div>
       </div>
     </section>

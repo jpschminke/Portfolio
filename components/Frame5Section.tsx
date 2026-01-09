@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 
 const imgImg50691 = "/images/portfolio - images/IMG_5069 1.png";
-const imgImg8059 = "/images/portfolio - images/IMG_1419 2.png";
+const imgImg8059 = "/images/portfolio - images/IMG_5069 1-1.png";
 const imgImg14191 = "/images/portfolio - images/IMG_1419 2.png";
 const imgImg94211 = "/images/portfolio - images/IMG_9421 1.png";
 const imgImage13 = "/images/portfolio - images/image 11.png";
